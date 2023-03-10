@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+header
+{
+    display:flex;
+    background-color: #FFDB89;
+    height:12%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+}
+header>img
+{
+    background-color: #FFDB89;
+    position: absolute;
+    left: 1px;
+}
+.header a:hover
+{
+    background-color:antiquewhite;
+}
+.navigation 
+{    
+    display: flex;
+    background-color: #FFDB89;
+    position: absolute;
+    left: 160px;
+    justify-content: space-evenly;
+    width: 600px;
+}
+.navigation a
+{
+    text-decoration: none;
+    color: rgb(175, 90, 20);
+    font-size: 24px;
+    background-color: #FFDB89;
+    padding-top: 25px;
+    font-weight: bold;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #FFDB89;
+    color: rgb(175, 90, 20);
+    /* padding: 16px; */
+    font-size: 24px;
+    border: none;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* background-color: grey; */
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #457165;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #FFDB89;}
+.searchbar
+{
+    border: 2px solid grey;
+    border-radius: 5rem;
+    position: absolute;
+    top: 17px;
+    left: 750px;
+    display: flex;
+    width: 40%;
+    /* padding-top: 25px; */
+    height: 50%;
+    background-color:whitesmoke;
+    /* justify-content: center; */
+
+}
+.searchbar input
+{
+    background-color: whitesmoke;
+    width: 75%;
+    outline: none;
+    border: none;
+    margin-left: 18px;
+    color:black;
+}
+.searchbar button
+{
+    border: none;
+    background-color:whitesmoke;
+    outline: none;
+    margin-left: 90px;
+    /* border-radius: 5rem; */
+    border-image:none ;
+    /* position: absolute;
+    bottom: 25px;*/
+} 
+.sign-in a
+{
+    /* border: 1px solid black; */
+    outline: none;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color:black;
+    color:rgb(175, 90, 20) ;
+    position: absolute;
+    top: 20px; 
+    left: 1415px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+.platforms
+{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;    
+}
+.movies
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.movies figure
+{
+    margin: 10px 20px;
+    width: 150px;
+}
+.movies figcaption
+{
+    font-size: 24px;
+    word-wrap: inherit;
+    text-align: center;
+}
+.movies img
+{
+    border-radius: 10px;
+}

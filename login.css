@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    height: 4em;
+    /* background-color:beige; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+div
+{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+table
+{
+    border: 2px solid;
+    height: 50%;
+    width: 50%;
+    margin: 12% 25%;
+    font-size: 18px;
+}
+input
+{
+    /* background-color: beige; */
+    border-bottom:1px solid;
+    border-style: none none solid;
+}
+
+input,button
+{
+    /*  */
+    width:100%;
+}
+button
+{
+    border: none;
+    height: 100%;
+    background-color: #FFDB89;
+}
